@@ -1,0 +1,84 @@
+.my_subscription {
+    background-color: #f7f7f7;
+}
+
+.my_subscription h3 {
+    margin-left: 20px;
+}
+
+.subscription_container {
+    background-color: #ffffff;
+    margin: 20px;
+    position: relative;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 1px gray;
+}
+.premium_chit{position: absolute;top: 0; right: 0;}
+.premium_chit p{background-color: #f79838;color: white;padding: 5px; border-top-left-radius: 20px; border-bottom-left-radius: 20px; }
+.details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.details>div:first-child {
+    margin: 0px 16px 1px 20px;
+    padding: 0px;
+    background-color: #f7f7f7;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.details>div>img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    /* margin: 10px; */
+    margin-bottom: -5px;
+}
+
+.details h4 {
+    display: inline;
+}
+
+.details .about {margin-top: 50px;}
+
+.green_check {
+    color: green;
+    margin-left: 5px;
+}
+
+.about p span {
+    background-color: #f7f7f7;
+    padding: 5px;
+    border-radius: 5px;
+    color: #f79838;
+    margin-right: 5px;
+}
+
+.about p a {
+    color: gray;
+    font-weight: 500;
+    text-decoration: none;
+}
+.hr_subs{margin: 20px;}
+.subs_details{margin: 20px;font-size: 16px; font-weight: 600;}
+.subs_exp{display: flex;}
+.subs_start{flex-grow: 1;}
+.subs_end{flex-grow: 1;}
+.btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-color: #f7f7f7;
+    background-color: #ffffff;
+    color: darkgray;
+    border-style: solid;
+}
+.btn_active{
+    background-color: #f79838;
+    color: #ffffff;
+}
+.add_sub_btn{float: right;clear: right; color: #f79838; border-radius: 50%; border: none; box-shadow: 0px 0px 2px 1px gray;
+background-color: white; margin-right: 20px; padding: 10px; font-size: 25px; font-weight: bold;}

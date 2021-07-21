@@ -1,0 +1,14 @@
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px 20px;
+    text-align: center;
+
+}
+.footer .link{margin: auto;}
+.footer img{width: 50px;margin-top: -4px;}
+.footer span{font-size: 56px;}
+.footer a{text-decoration: none;color: darkgray;padding-top: 50px;}
+.footer .link a:hover{border-top: 2px solid #f79838;}
