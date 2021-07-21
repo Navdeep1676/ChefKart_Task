@@ -5,6 +5,8 @@
     background-color: white;
     padding: 20px 20px;
     text-align: center;
+     position: fixed;
+    bottom: 0;
 
 }
 .footer .link{margin: auto;}
